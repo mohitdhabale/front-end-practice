@@ -1,0 +1,15 @@
+#main{
+    width: 20%;
+    height: 50px;
+    margin: 250px auto;
+    border-top-left-radius: 10px;
+    border: 3px solid black;
+    border-bottom-right-radius: 10px;
+    background-color: brown;
+}
+#capital{
+    font-size: 20px;
+    /* text-align: center; */
+    text-transform:capitalize
+    /* text-spacing-trim: ; */
+}

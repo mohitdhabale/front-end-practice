@@ -1,0 +1,28 @@
+#main{
+    width: 20%;
+    height: 40px;
+    background-color: rgb(115, 186, 93);
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+
+#sub{
+    /* width: 20%; */
+    height: 120px;
+    margin-top: -7%;
+    background-color:rgb(133, 133, 190);
+    display: none;
+}
+li{
+    /* width: 100%; */
+    list-style-type: none;
+    padding-top: 4px;
+    text-align: center;
+    /* margin-top: 2px; */
+}
+
+#main:hover #sub{
+    display: inline-block;
+    width: 100%;
+}

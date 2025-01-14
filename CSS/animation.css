@@ -1,0 +1,19 @@
+#main{
+    width: 8%;
+    height: 80px;
+    background-color: chocolate;
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    position: absolute;
+}
+
+@keyframes ani {
+    0%{background-color: chocolate;left:0%;top: 10px;}
+    20%{background-color:blueviolet;left: 91%;top: 10px;}    
+    60%{background-color:darksalmon;top: 84%;left: 91%;}    
+    40%{background-color:brown;}    
+    80%{background-color:fuchsia; right: 91%; top:84%; left: 10px;}    
+    10%{background-color:blue;}    
+    100%{background-color:gold;top: 10px;right: 91%;}    
+}
